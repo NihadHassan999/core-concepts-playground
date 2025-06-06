@@ -1,5 +1,9 @@
 """
 sample echo client
+- create socket instance
+- connect()
+- send message
+- echo back
 """
 import socket
 

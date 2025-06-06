@@ -1,5 +1,5 @@
 '''
-server creation:
+echo server creation:
 - create socket
 - bind it to address:port 
 - put into listening mode
@@ -14,10 +14,10 @@ print(f"server has binded to {HOST}:{PORT}")
 server_sock.listen()
 
 '''
-server operation:
+echo server operation:
 - create infinite loop to handle multiple clients over time
 - accept connections and handle them
-- basic request-response structure
+- echo back
 '''
 while True:
     print("Server entered infinite loop") 
